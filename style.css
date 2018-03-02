@@ -1,0 +1,53 @@
+﻿body {
+  background: url("Background.png") fixed;
+  background-size: cover;
+  background-position: center; }
+
+.ui.menu {
+  background-color: #112233; }
+  .ui.menu .item {
+    color: #DDDDDD; }
+  .ui.menu .item.active {
+    color: #FFFFFF; }
+  .ui.menu a.item:hover, .ui.menu a.item.active:hover {
+    color: #FFFFFF; }
+
+.h1 {
+  color: #112233; }
+
+.Spotify-item.ui.card {
+  display: none; }
+
+.Netflix-item.ui.card {
+  display: none; }
+
+.Youtube-item.ui.card {
+  display: none; }
+
+fieldset {
+  border: none; }
+
+.padding-right {
+  padding-right: 2em; }
+
+iframe {
+  width: 100%;
+  max-width: 500px; }
+
+.ui.card {
+  width: 100%;
+  max-width: 250px; }
+
+/*@media (min-width: 600px) {
+    .ui.segment{
+        margin: 15px;
+    }
+    .ui.card {
+        margin: 15px !important;
+    }
+}*/
+@media (max-width: 595px) {
+  .ui.card, .ui.cards > .card {
+    margin-top: 7px;
+    width: 100%; } }
+
